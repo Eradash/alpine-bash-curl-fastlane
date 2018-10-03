@@ -10,11 +10,9 @@ RUN apk add --update --no-cache \
     ruby-dev \
     curl \
     git \
-    bash
-
-RUN rm -rf /tmp/* /var/tmp/*
-
-RUN echo 'gem: --no-document' > /etc/gemrc
+    bash \
+    && rm -rf /tmp/* /var/tmp/* \
+    && echo 'gem: --no-document' > /etc/gemrc
 
 RUN gem install bundler
 
