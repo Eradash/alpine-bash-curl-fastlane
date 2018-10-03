@@ -17,5 +17,3 @@ RUN apk add --update --no-cache \
 RUN gem install bundler
 
 RUN gem install fastlane -N
-
-#ENTRYPOINT ["/usr/bin/curl"]
