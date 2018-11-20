@@ -14,6 +14,13 @@ RUN apk add --update --no-cache \
     && rm -rf /tmp/* /var/tmp/* \
     && echo 'gem: --no-document' > /etc/gemrc
 
+RUN export LC_ALL=en_US.UTF-8 \
+    export LANG=en_US.UTF-8
+
 RUN gem install bundler
 
 RUN gem install fastlane -N
+
+COPY Gemfile Gemfile
+
+RUN bundle install
