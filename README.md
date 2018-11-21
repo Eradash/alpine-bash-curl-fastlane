@@ -5,7 +5,7 @@
 
 This project takes an alpine docker image and adds some tools used in a Gitlab-CI. It produces a docker image on [Docker Hub] with the same name as this repo.
 
-You can check the [Dockerfile] and the [travis.yml] file used to build this image. The result of the build job can be found [here](https://travis-ci.org/Eradash/alpine-bash-curl-fastlane.svg?branch=master)
+You can check the [Dockerfile] and the [travis.yml] file used to build this image. The result of the build job can be found [here](https://travis-ci.org/Eradash/alpine-bash-curl-fastlane).
 
 ## Tools added to Alpine:
 
