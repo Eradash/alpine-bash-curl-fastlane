@@ -11,8 +11,11 @@ RUN apk add --update --no-cache \
     curl \
     git \
     bash \
+    openssh-client \
     && rm -rf /tmp/* /var/tmp/* \
     && echo 'gem: --no-document' > /etc/gemrc
+
+RUN eval $(ssh-agent -s)
 
 RUN export LC_ALL=en_US.UTF-8 \
     export LANG=en_US.UTF-8
