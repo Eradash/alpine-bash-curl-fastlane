@@ -22,8 +22,6 @@ RUN export LC_ALL=en_US.UTF-8 \
 
 RUN gem install bundler
 
-RUN gem install fastlane -N
-
 COPY Gemfile Gemfile
 
 RUN bundle install
