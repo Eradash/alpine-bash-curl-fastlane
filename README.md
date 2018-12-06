@@ -17,8 +17,9 @@ You can check the [Dockerfile] and the [travis.yml] file used to build this imag
 * bash
 * openssh-client
 * Fastlane
-	*  [changelog](https://github.com/Eradash/fastlane-plugin-changelog)
-	*  [android_versionning](https://github.com/Eradash/fastlane-plugin-android_versioning)
+	* [changelog](https://github.com/Eradash/fastlane-plugin-changelog)
+	* [android_versionning](https://github.com/otkmnb2783/fastlane-plugin-android_versioning)
+	* [load_json](https://github.com/KrauseFx/fastlane-plugin-load_json)
 * Screengrab
 
 [Docker Hub]: https://hub.docker.com/r/eradash/android-docker/
