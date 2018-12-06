@@ -19,6 +19,7 @@ You can check the [Dockerfile] and the [travis.yml] file used to build this imag
 * Fastlane
 	*  [changelog](https://github.com/Eradash/fastlane-plugin-changelog)
 	*  [android_versionning](https://github.com/Eradash/fastlane-plugin-android_versioning)
+* Screengrab
 
 [Docker Hub]: https://hub.docker.com/r/eradash/android-docker/
 [Dockerfile]: https://github.com/Eradash/alpine-bash-curl-fastlane/blob/master/Dockerfile
