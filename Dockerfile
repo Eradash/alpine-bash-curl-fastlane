@@ -21,7 +21,3 @@ RUN export LC_ALL=en_US.UTF-8 \
     export LANG=en_US.UTF-8
 
 RUN gem install bundler
-
-COPY Gemfile Gemfile
-
-RUN bundle install
